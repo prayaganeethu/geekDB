@@ -1,0 +1,28 @@
+{
+  "name": "kvs_db",
+  "version": "1.0.0",
+  "description": "A key value store database in Javascript",
+  "main": "REPL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prayaganeethu/kvsDB.git"
+  },
+  "keywords": [
+    "key",
+    "value",
+    "store",
+    "node",
+    "javascript",
+    "database",
+    "JSON"
+  ],
+  "author": "Neethu Mohandas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prayaganeethu/kvsDB/issues"
+  },
+  "homepage": "https://github.com/prayaganeethu/kvsDB#readme"
+}
