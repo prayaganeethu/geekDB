@@ -11,7 +11,7 @@ rl.prompt()
 rl.on('line', (command) => {
   if (command.trim()) {
     console.log(command + ' ' + Date())
-    execute(command)
+    execute(command.trim())
   }
   rl.prompt()
 }).on('close', () => {
