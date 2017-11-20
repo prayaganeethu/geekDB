@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 rl.prompt()
 
 rl.on('line', (command) => {
-  if (command) {
+  if (command.trim()) {
     console.log(command + ' ' + Date())
     execute(command)
   }
