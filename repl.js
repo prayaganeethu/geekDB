@@ -17,7 +17,7 @@ rl.on('line', (command) => {
         rl.prompt()
       }
     })
-  }
+  } else rl.prompt()
 }).on('close', () => {
   console.log('Exiting...')
   process.exit(0)
