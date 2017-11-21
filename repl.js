@@ -14,8 +14,8 @@ rl.on('line', (command) => {
       if (err) console.error(err)
       else {
         console.log(output)
-        rl.prompt()
       }
+      rl.prompt()
     })
   } else rl.prompt()
 }).on('close', () => {
