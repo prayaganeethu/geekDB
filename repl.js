@@ -1,3 +1,5 @@
+'use strict'
+
 const readline = require('readline')
 const {execute} = require('./lib/keyValueStore')
 const rl = readline.createInterface({
