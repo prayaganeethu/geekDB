@@ -11,14 +11,11 @@ const rl = readline.createInterface({
 rl.prompt()
 
 rl.on('line', (command) => {
-  if (command.trim()) {
-    execute(command.trim(), (err, output) => {
-      if (err) console.error(err)
-      else {
-        console.log(output)
-      }
-      rl.prompt()
-    })
+  command = command.trim()
+  if (command) {
+    let output = execute(command)
+    console.log(output)
+    rl.prompt()
   } else rl.prompt()
 }).on('close', () => {
   console.log('Exiting...')
