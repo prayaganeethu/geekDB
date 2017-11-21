@@ -12,10 +12,12 @@ rl.on('line', (command) => {
   if (command.trim()) {
     execute(command.trim(), (err, output) => {
       if (err) console.error(err)
-      else console.log(output)
+      else {
+        console.log(output)
+        rl.prompt()
+      }
     })
   }
-  rl.prompt()
 }).on('close', () => {
   console.log('Exiting...')
   process.exit(0)
