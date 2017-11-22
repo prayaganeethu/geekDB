@@ -14,7 +14,7 @@ rl.on('line', (command) => {
   command = command.trim()
   if (command) {
     let output = execute(command)
-    console.log(output)
+    if (output) console.log(output)
     rl.prompt()
   } else rl.prompt()
 }).on('close', () => {
