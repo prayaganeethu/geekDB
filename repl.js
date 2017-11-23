@@ -13,9 +13,14 @@ rl.prompt()
 rl.on('line', (command) => {
   command = command.trim()
   if (command) {
-    let output = execute(command)
-    if (output || output === false) console.log(output)
-    rl.prompt()
+    try {
+      let output = execute(command)
+      if (output || output === false) console.log(output)
+      rl.prompt()
+    } catch (err) {
+      console.error(err)
+      rl.prompt()
+    }
   } else rl.prompt()
 }).on('close', () => {
   console.log('Exiting...')
