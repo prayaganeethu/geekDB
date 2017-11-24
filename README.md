@@ -13,9 +13,9 @@ Supports the following operations:-
 
 **Inserts values into the db**
 
-`kvs>> insert "name" "Neethu Mohandas"
-true
-kvs>> insert "books" ["Kite Runner", "Gone with the wind", "Uncle Tom's cabin"]
-true
-kvs>> insert "address" { "place": "Indiranagar, 19th main, 4th cross", "building":2698}
+`kvs>> insert "name" "Neethu Mohandas"  
+true  
+kvs>> insert "books" ["Kite Runner", "Gone with the wind", "Uncle Tom's cabin"]  
+true  
+kvs>> insert "address" { "place": "Indiranagar, 19th main, 4th cross", "building":2698}  
 true`
