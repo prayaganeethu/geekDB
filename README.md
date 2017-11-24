@@ -5,7 +5,9 @@ Uses in-memory storage for now.
 
 Run the following command in the terminal to get started with it:
 
-`node repl.js`
+`node repl.js`     
+
+To exit, hit CTRL+C
 
 Supports the following operations:-
 
@@ -55,4 +57,4 @@ Note: Supports only showing the values of outermost keys in the db for now
 
 **Lists all data in db**
 
-`listAll`
+`listAll`      
