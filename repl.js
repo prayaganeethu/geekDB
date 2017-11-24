@@ -15,7 +15,7 @@ rl.on('line', (command) => {
   if (command) {
     try {
       let output = execute(command)
-      if (output || output === false) console.log(output)
+      console.log(output)
       rl.prompt()
     } catch (err) {
       console.error(err)
