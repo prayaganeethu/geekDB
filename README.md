@@ -23,15 +23,15 @@ Note: keys should be in double quotes, and restrict it to single words. Values s
 
 **Updates values in the db**
 
-`update "name" "Anitha Mohandas"`
-`update "address.building" 2699`
+`update "name" "Anitha Mohandas"`      
+`update "address.building" 2699`    
 
 ## Delete
 
 **Deletes values from the db**
 
-`delete "name"`
-`delete "address.place"`
+`delete "name"`        
+`delete "address.place"`        
 
 ## Show
 
@@ -39,8 +39,8 @@ Note: keys should be in double quotes, and restrict it to single words. Values s
 
 Note: Supports only showing the values of outermost keys in the db for now
 
-`show "address"`
-`show "books"`
+`show "address"`             
+`show "books"`           
 
 ## keyExists
 
@@ -48,8 +48,8 @@ Note: Supports only showing the values of outermost keys in the db for now
 
 Note: Supports only showing the values of outermost keys in the db for now
 
-`keyExists "books"`
-`keyExists "address"`
+`keyExists "books"`           
+`keyExists "address"`             
 
 ## ListAll
 
