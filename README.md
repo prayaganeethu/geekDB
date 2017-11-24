@@ -11,7 +11,9 @@ Supports the following operations:-
 
 ## Insertion
 
-**Inserts values into the db**
+**Inserts values into the db**      
+
+Note: keys should be in double quotes, and restrict it to single words. Values should be in JSON format.
 
 `insert "name" "Neethu Mohandas"`       
 `insert "books" ["Kite Runner", "Gone with the wind", "Uncle Tom's cabin"]`      
