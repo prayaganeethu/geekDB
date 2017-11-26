@@ -14,11 +14,10 @@ rl.on('line', (command) => {
   command = command.trim()
   if (command) {
     try {
-      let output = execute(command)
-      console.log(output)
+      console.log(execute(command))
       rl.prompt()
     } catch (err) {
-      console.error(err)
+      console.log(err.message)
       rl.prompt()
     }
   } else rl.prompt()
