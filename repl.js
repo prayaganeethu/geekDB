@@ -17,7 +17,7 @@ rl.on('line', (command) => {
       console.log(execute(command))
       rl.prompt()
     } catch (err) {
-      console.log(err.message)
+      console.error(err.message)
       rl.prompt()
     }
   } else rl.prompt()
