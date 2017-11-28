@@ -1,14 +1,21 @@
 'use strict'
 
 const readline = require('readline')
+const db = require('./lib/db')
 const {execute} = require('./lib/keyValueStore')
+
+const cwd = process.cwd()
+const data = cwd + '/lib/data.json'
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
   prompt: 'kvs>> '
 })
 
-rl.prompt()
+db.copyDB(data, function () {
+  rl.prompt()
+})
 
 rl.on('line', (command) => {
   command = command.trim()
