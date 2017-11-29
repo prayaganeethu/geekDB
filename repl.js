@@ -13,7 +13,7 @@ const rl = readline.createInterface({
   prompt: 'kvs>> '
 })
 
-db.copyDB(data, function () {
+db.loadDB(data, function () {
   rl.prompt()
 })
 
