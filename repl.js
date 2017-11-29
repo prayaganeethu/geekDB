@@ -11,7 +11,7 @@ const rl = readline.createInterface({
 })
 
 kvs.initialize(path, function (flag) {
-  if (!flag) console.error('Can\'t locate DB. Initializing new file')
+  if (!flag) console.log('Can\'t locate DB. Initializing new file')
   rl.prompt()
 })
 
