@@ -61,4 +61,4 @@ typings/
 *.txt
 
 # database files
-*.json
+./lib/*.json
