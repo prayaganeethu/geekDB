@@ -1,8 +1,9 @@
 'use strict'
 
 const readline = require('readline')
+const path = require('path')
 const kvs = require('./lib/keyValueStore')
-const path = process.cwd() + '/lib/data.json'
+const filePath = path.join(process.cwd(), '/lib/data.json')
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -10,7 +11,7 @@ const rl = readline.createInterface({
   prompt: 'kvs>> '
 })
 
-kvs.initialize(path, function (flag) {
+kvs.initialize(filePath, function (flag) {
   if (!flag) console.error('Can\'t locate DB. Initializing new file')
   rl.prompt()
 })
