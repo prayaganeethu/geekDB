@@ -22,7 +22,7 @@ rl.on('line', (command) => {
       console.log(kvs.execute(command))
       rl.prompt()
     } catch (err) {
-      console.error(err)
+      console.error(err.message)
       rl.prompt()
     }
   } else rl.prompt()
