@@ -1,4 +1,4 @@
-# kvsDB
+# geekDB
 
 A key value store database in Javascript, in development stage.
 
