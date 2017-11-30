@@ -78,4 +78,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hats off to my mentors, [Mukesh](https://github.com/mukeshm) and [Adarsh](https://github.com/adarsh-why) for helping me learn throughout.
 
-* [PurpleBooth]([PurpleBooth](https://github.com/PurpleBooth) for this template
+* [PurpleBooth](https://github.com/PurpleBooth) for this template
