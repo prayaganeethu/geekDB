@@ -1,7 +1,8 @@
 # kvsDB
 
 A key value store database in Javascript, in development stage.
-Uses in-memory storage for now.
+
+## Getting Started
 
 Run the following command in the terminal to get started with it:
 
@@ -57,4 +58,22 @@ Note: Supports only showing the values of outermost keys in the db for now
 
 **Lists all data in db**
 
-`listAll`      
+`listAll`  
+
+## commit
+
+**Saves all data to the file**
+
+`commit`    
+
+## Authors
+
+* **Neethu Mohandas** - *Initial work* - [PurpleBooth](https://github.com/prayaganeethu)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hats off to my mentors, [Mukesh](https://github.com/mukeshm) and [Adarsh](https://github.com/adarsh-why) for helping me learn throughout.
