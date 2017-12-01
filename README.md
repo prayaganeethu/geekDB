@@ -21,6 +21,7 @@ Note: keys should be in double quotes, and should be valid JSON strings. Values 
 `insert "name" "Neethu Mohandas"`       
 `insert "books" ["Kite Runner", "Gone with the wind", "Uncle Tom's cabin"]`      
 `insert "address" { "place": "Indiranagar, 19th main, 4th cross", "building":2698}`
+`insert "address.Pin" 560008`
 
 ### update
 
@@ -40,19 +41,15 @@ Note: keys should be in double quotes, and should be valid JSON strings. Values 
 
 **Shows a specific key's value**
 
-Note: Supports only showing the values of outermost keys in the db for now
-
-`show "address"`             
+`show "address.place"`             
 `show "books"`           
 
 ### keyExists
 
 **Checks if a key exists in the db**
 
-Note: Supports only showing the values of outermost keys in the db for now
-
 `keyExists "books"`           
-`keyExists "address"`             
+`keyExists "address.place"`             
 
 ### listAll
 
