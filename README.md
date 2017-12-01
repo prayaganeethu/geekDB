@@ -12,7 +12,7 @@ To exit, hit CTRL+C
 
 ## Supports the following operations:-
 
-Note: keys should be in double quotes, and restrict it to single words. Values should be in JSON format.
+Note: keys should be in double quotes, and should be valid JSON strings. Values should be in JSON format.
 
 ### insert
 
