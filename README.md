@@ -70,9 +70,3 @@ Note: keys should be in double quotes, and should be valid JSON strings. Values 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hats off to my mentors, [Mukesh](https://github.com/mukeshm) and [Adarsh](https://github.com/adarsh-why) for helping me learn throughout.
-
-* [PurpleBooth](https://github.com/PurpleBooth) for this template
